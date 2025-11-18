@@ -1,15 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Ejemplo de Historia Precolombina</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería Virtual - Cultura Calima</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Georgia',serif;background:#0e0e16;color:#f0f0f0;line-height:1.6}
+        header{background:linear-gradient(to right,#d4af37,#f4d03f);color:#1a1a2e;text-align:center;padding:3rem 2rem;box-shadow:0 4px 20px rgba(212,175,55,.3)}
+        header h1{font-size:3rem;margin-bottom:.5rem}
+        header p{font-size:1.2rem;font-style:italic}
+        .intro{max-width:1000px;margin:3rem auto;padding:0 2rem;text-align:center;font-size:1.2rem;color:#e0e0e0}
+        .gallery{max-width:1200px;margin:2rem auto;padding:0 2rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:2rem}
+        .artwork{background:rgba(255,255,255,0.05);border:2px solid #d4af37;border-radius:20px;padding:2rem;transition:.3s;backdrop-filter:blur(10px)}
+        .artwork:hover{transform:translateY(-8px);box-shadow:0 10px 30px rgba(212,175,55,.3)}
+        .artwork img{width:100%;border-radius:15px;margin-bottom:1rem;border:2px solid #d4af37}
+        .artwork-number{background:#d4af37;color:#1a1a2e;padding:.4rem 1rem;border-radius:20px;font-weight:bold;font-size:.9rem}
+        h2{margin-top:.5rem;color:#f4d03f;text-shadow:1px 1px 3px rgba(0,0,0,.4)}
+        .ficha-tecnica{background:rgba(212,175,55,0.12);padding:1rem;border-radius:10px;margin:1rem 0;border-left:4px solid #d4af37}
+        .ficha-label{color:#d4af37;font-weight:bold}
+        .descripcion{margin-top:1rem;text-align:justify;font-size:1.05rem}
+        .context{max-width:1000px;margin:4rem auto;padding:2rem;background:rgba(212,175,55,0.08);border:2px solid #d4af37;border-radius:20px;font-size:1.2rem}
+        footer{text-align:center;padding:2rem;background:#0b0b14;color:#d4af37;margin-top:4rem}
+    </style>
 </head>
 <body>
-    <h1>Este es un ejemplo de proyecto</h1>
-    <p>Este sitio web es solo un ejemplo educativo creado por YuberQ para practicar el uso de Git y GitHub.</p>
+<header>
+    <h1>🏺 Galería Virtual: Cultura Calima 🏺</h1>
+    <p>Tesoros arqueológicos del Valle del Cauca</p>
+</header>
 
-    <h2>Dato histórico de la Colombia precolombina</h2>
-    <p>Antes de la llegada de los españoles, en lo que hoy es Colombia habitaban diversas culturas indígenas como los muiscas, los taironas y los quimbayas. 
-    Los muiscas, por ejemplo, eran conocidos por su avanzada organización social y económica, y por sus rituales en la laguna de Guatavita, que dieron origen a la leyenda de El Dorado.</p>
+<div class="intro">
+    Bienvenido a una experiencia visual . Observa cinco manifestaciones artísticas y rituales de la cultura Calima, ahora ilustradas con imágenes representativas.
+</div>
+
+<div class="gallery">
+
+    <!-- Pieza 1 -->
+    <div class="artwork">
+        <span class="artwork-number">PIEZA 1</span>
+        <img src="C:\Users\yuber\Downloads\Funerary_Mask_Colombia_Ilama_(Calima)_5th-1st_century_BCE_Hammered_gold.jpg" alt="Máscara funeraria de oro" />
+        <h2>Máscara Funeraria de Oro</h2>
+        <div class="ficha-tecnica">
+            <div><span class="ficha-label">Material:</span> Oro martillado</div>
+            <div><span class="ficha-label">Fecha:</span> 200 a.C. - 200 d.C.</div>
+            <div><span class="ficha-label">Ubicación:</span> Valle del río Calima</div>
+        </div>
+        <div class="descripcion">Estas máscaras funerarias, elaboradas en oro martillado con técnicas avanzadas, formaban parte de los ajuares utilizados para acompañar a los líderes en su tránsito al mundo espiritual. Su diseño facial busca representar no solo al difunto, sino también la dualidad entre la vida terrenal y la vida espiritual, incorporando rasgos estilizados que simbolizan poder, divinidad y contacto con los ancestros.</div>
+    </div>
+
+    <!-- Pieza 2 -->
+    <div class="artwork">
+        <span class="artwork-number">PIEZA 2</span>
+        <img src="C:\Users\yuber\Downloads\Pre Columbian - Pectoral ornament of the Calima region Colombia c AD 500-1500 (gold) - (MeisterDrucke-210498).jpg" alt="Pectoral murciélago" / src="C:\Users\yuber\Downloads\Galeria_de_arte.html">
+        <h2>Pectoral en Forma de Murciélago</h2>
+        <div class="ficha-tecnica">
+            <div><span class="ficha-label">Material:</span> Oro batido</div>
+            <div><span class="ficha-label">Fecha:</span> 100 a.C. - 100 d.C.</div>
+            <div><span class="ficha-label">Uso ritual:</span> Chamanes y líderes ceremoniales</div>
+        </div>
+        <div class="descripcion">Este pectoral representa a un murciélago, animal sagrado para las sociedades Calima por su asociación con la noche, los sueños y el mundo espiritual. Su uso estaba reservado a chamanes o figuras de alto prestigio, quienes empleaban estos objetos durante ceremonias para simbolizar la transformación espiritual y la capacidad de moverse entre los planos terrenal y sobrenatural. La minuciosidad de su elaboración evidencia la gran maestría orfebre de esta cultura.</div>
+    </div>
+
+    <!-- Pieza 3 -->
+    <div class="artwork">
+        <span class="artwork-number">PIEZA 3</span>
+        <img src="C:\Users\yuber\Downloads\descarga.jpg" alt="Alcarraza ceremonial" / src="C:\Users\yuber\Downloads\descarga.jpg">
+        <h2>Alcarraza Ceremonial</h2>
+        <div class="ficha-tecnica">
+            <div><span class="ficha-label">Material:</span> Cerámica</div>
+            <div><span class="ficha-label">Fecha:</span> 300 a.C. - 800 d.C.</div>
+            <div><span class="ficha-label">Función:</span> Contener líquidos sagrados</div>
+        </div>
+        <div class="descripcion">Las alcarrazas fueron recipientes de doble vertedero empleados en rituales agrícolas, especialmente en ceremonias vinculadas a la siembra, la fertilidad y la renovación de los ciclos naturales. Su forma permitía conservar y verter líquidos ceremoniales como la chicha ritual, bebida que simbolizaba vida, unión comunitaria y ofrenda para las divinidades protectoras de la naturaleza.</div>
+    </div>
+
+    <!-- Pieza 4 -->
+    <div class="artwork">
+        <span class="artwork-number">PIEZA 4</span>
+        <img src="C:\Users\yuber\Downloads\unnamed.jpg" alt="Nariguera de oro" / src="C:\Users\yuber\Downloads\unnamed.jpg">
+        <h2>Nariguera de Oro</h2>
+        <div class="ficha-tecnica">
+            <div><span class="ficha-label">Material:</span> Oro puro</div>
+            <div><span class="ficha-label">Fecha:</span> 100 a.C. - 200 d.C.</div>
+            <div><span class="ficha-label">Uso:</span> Ornamentación de élite</div>
+        </div>
+        <div class="descripcion">Las narigueras, elaboradas con oro puro trabajado con técnicas de alto refinamiento, eran utilizadas por guerreros, sacerdotes y líderes sociales como símbolo de autoridad y conexión divina. Su presencia en rituales representaba protección espiritual, prestigio y una relación privilegiada con los dioses solares y los espíritus del clan. Muchas de estas piezas incluyen diseños geométricos y zoomorfos asociados al poder y la transformación.</div>
+    </div>
+
+<div class="artwork">
+<span class="artwork-number">PIEZA 5</span>
+<img src="C:\Users\yuber\Downloads\5.jpg" alt="Poporo Calima" />
+<h2>Poporo Calima</h2>
+<div class="ficha-tecnica">
+<div><span class="ficha-label">Material:</span> Oro martillado y moldeado</div>
+<div><span class="ficha-label">Fecha:</span> 200 a.C. - 500 d.C.</div>
+<div><span class="ficha-label">Función:</span> Contenedor ritual para el mambeo</div>
+</div>
+<div class="descripcion">El Poporo Calima era un objeto fundamental en la práctica del mambeo, una ceremonia en la que se combinaba la hoja de coca con cal para propiciar estados de claridad espiritual, diálogo comunitario y conexión con los antepasados. Estos poporos, elaborados en oro con una profunda carga simbólica, también expresaban estatus y autoridad, y su diseño refleja elementos de fertilidad, continuidad y cohesión social dentro de la comunidad Calima.</div>
+</div>
+
+</div>
+</div>
+
+<div class="context">
+    La cultura Calima, ubicada en el Valle del Cauca, sobresalió por su orfebrería y cerámica ritual. Su arte expresa su visión del cosmos, la naturaleza, el poder espiritual y el rol sagrado de los ancestros.
+</div>
+
+<footer>
+    Galería Virtual - Cultura Calima © 2025
+</footer>
 </body>
 </html>
